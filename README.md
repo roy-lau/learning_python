@@ -3,13 +3,20 @@
 > 记录一些学习心得
 
 * 卸载pip所有的包
-    ```pip freeze | grep -v "^-e" | xargs pip uninstall -y```
+```bash
+pip freeze | grep -v "^-e" | xargs pip uninstall -y
+```
+
 * [示例](/example)
 	- [requests](/example/requests)
+	- [绘图(写论文可能会用到)](/example/draw)
+
 * [笔记](/notes)
 	- [文件操作](/notes/lean_files.md)
+
 * [数据库](/db)
 	- [mysql](/db/mysql/)
+	
 * [项目](/project)
 	- [flask微电影网站](/project/flask_movie_web) | [前端](http://139.199.99.154:9001/1/) | [后台](http://139.199.99.154:9001/admin/login/)
 	- [爬取豆瓣电影前250条数据](/project/pa_douban_top250)
